@@ -1,6 +1,6 @@
 # Django + Selenium crawler
 
-- Django simple search implementation. There are 10 website links in our database and each has it's own rate ( from 1 to 10).
+- Django simple search implementation. There are 10 website links in our database and each has it's own rate (from 1 to 10).
 - Using selenium with localhost. We use selenium to click on the search button and then we retrieve the shown results.
 - We sort the retrieved links by their rate.
 
