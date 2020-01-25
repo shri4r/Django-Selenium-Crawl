@@ -1,0 +1,9 @@
+<h1>Search Results</h1>
+
+<ul>
+  {% for link in object_list %}
+    <li>
+      {{ link.title }}, {{ link.rate }}, {{ link.body }}
+    </li>
+  {% endfor %}
+</ul>
